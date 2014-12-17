@@ -3,6 +3,7 @@
 ## Dev
 	- Hosts File
 	- Local Databases
+	- .ssh files - keys
 
 ## Personal
 
