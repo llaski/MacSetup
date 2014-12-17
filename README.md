@@ -1,18 +1,18 @@
-#Mac Setup
+# Mac Setup
 
-##Dev
+## Dev
 	- Git
 	- NPM
 	- Composer
 	- Phantom JS
 	- Selenium
+	- Hosts File
 
-##Symlinks
+## Symlinks
 
 	.bash_profile -> /Users/larrylaski/Documents/bash/.bash_profile
 
-
-###Applications
+### Applications
 	- Sublime Text
 	- Transmit
 	- Sequel Pro
