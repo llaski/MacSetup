@@ -4,6 +4,7 @@
 	- Hosts File
 	- Local Databases
 	- .ssh files - keys
+	- Text Editor Preferences
 
 ## Personal
 

@@ -13,7 +13,8 @@
 
 ## Symlinks
 
-	.bash_profile -> /Users/larrylaski/Documents/bash/.bash_profile
+	/Users/LarryLaski/.bash_profile -> /Users/LarryLaski/bash/.bash_profile
+	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 ### Applications
 	- Time Machine
