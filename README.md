@@ -1,22 +1,6 @@
 # Mac Setup
 
-## Dev
-	- Git
-	- NPM
-	- Composer
-	- Laravel Homestead
-	- Phantom JS
-	- Selenium
-	- Hosts File
-	- Bash Folder
-	- Show hidden folders command
-
-## Symlinks
-
-	/Users/LarryLaski/.bash_profile -> /Users/LarryLaski/bash/.bash_profile
-	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-
-### Applications
+## Applications
 	- Time Machine
 	- Sublime Text
 	- Transmit
@@ -41,3 +25,35 @@
 	- XCode
 		- Command line tools (should have git)
 	- Microsoft Office Suite
+
+### Sublime Text
+
+
+## Backups
+
+- Time Machine
+- Cloud Backup
+
+## Web Developer Packages
+
+### Settings
+- Bash Profile
+- SSH Keys
+- Hosts
+- Show hidden files/folders
+
+### Dev Packages
+- Git
+- NPM/NVM
+- Composer
+- Laravel Homestead/Valet
+- Hosts File
+- Bash Folder
+- Show hidden folders command
+
+## Symlinks
+
+	/Users/LarryLaski/.bash_profile -> /Users/LarryLaski/bash/.bash_profile
+	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
+### Applications
