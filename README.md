@@ -1,40 +1,46 @@
 # Mac Setup
 
 ## Applications
-	- Time Machine
-	- Sublime Text
-	- Transmit
-	- Sequel Pro
-	- Web Browsers
-	- VirtualBox, Vagrant Mac Manager
-	- VMWare?
-	- Airmail
-	- Terminal setup
-		- solarized dark
-		- menlo regular 13
-	- Slack
-	- Spotify
-	- Adobe Suite - photoshop, illustrator
-	- VLC
-	- Twitter
-	- Mamp
-	- Alfred
-	- Dropbox
-	- Skype
-	- Transmission
-	- XCode
-		- Command line tools (should have git)
-	- Microsoft Office Suite
 
-### Sublime Text
+- Sublime Text
+- Transmit
+- Sequel Pro
+- Chrom
+- Firefox
+- Vagrant
+- VirtualBox
+- Airmail
+- Terminal
+- Slack
+- Spotify
+- Photoshop
+- Twitter
+- Mamp
+- Alfred
+- Dropbox
+- Skype
+- Microsoft Word
+- Microsoft Excel
+- Postgres
+- Postico
+- Kaleidoscope
 
+### Sublime Tex
+- User Preferences
+- Key Bindings
+- Packages
+	- Preferences Per Package
+- https://github.com/adamwathan/sublime-phpunit
+
+### Terminal
+- Theme
+- Font Settings
 
 ## Backups
-
 - Time Machine
 - Cloud Backup
 
-## Web Developer Packages
+## Web Development
 
 ### Settings
 - Bash Profile
@@ -42,18 +48,27 @@
 - Hosts
 - Show hidden files/folders
 
-### Dev Packages
+### Packages
 - Git
-- NPM/NVM
+	- Profile Configuration
+	- Kaleidoscope Diff Tool
+- Homebrew
+- Node - NVM/NPM
+- MySQL
 - Composer
-- Laravel Homestead/Valet
-- Hosts File
-- Bash Folder
-- Show hidden folders command
+- Laravel Valet
 
-## Symlinks
+### Symlinks
 
-	/Users/LarryLaski/.bash_profile -> /Users/LarryLaski/bash/.bash_profile
+```
+	ln -s /Users/$USER/Settings/bash/.bash_profile /Users/$USER/.bash_profile
 	ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+	ln -s /Users/$USER/Settings/sublime-phpunit ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/sublime-phpunit
+    ln -s /Users/$USER/Settings/sublime-user-settings/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+```
 
-### Applications
+### Sites
+
+- Environment Files
+- Wordpress Configuration Files
+- Databases
